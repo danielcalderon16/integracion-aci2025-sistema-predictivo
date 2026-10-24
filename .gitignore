@@ -1,0 +1,30 @@
+# Python / backend
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/.env
+*.pyc
+
+# ML artifacts descargados en entrenamiento (no versionar datasets/pesos pesados)
+ml_models/Concrete_Data.xls
+ml_models/*.h5
+ml_models/*.pkl
+
+# Material de referencia histórica (no es parte del proyecto en funcionamiento)
+backend/app_v3_legacy.py
+ml_models/notebook_legacy.ipynb
+docs/
+
+# Node / frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# Docker / env
+.env
+
+# Editores / SO
+.vscode/
+.DS_Store
